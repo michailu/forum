@@ -1,0 +1,32 @@
+INSERT INTO USUARIO(nome, email, senha) VALUES('Aluno1', 'aluno1@email.com', '$2a$10$2ySZLGg182rbBMwu42iwwu6.e1XPxKlR4R1Zqh6Y9tm0psX26lpw.');
+INSERT INTO USUARIO(nome, email, senha) VALUES('Aluno2', 'aluno2@email.com', '$2a$10$2ySZLGg182rbBMwu42iwwu6.e1XPxKlR4R1Zqh6Y9tm0psX26lpw.');
+INSERT INTO USUARIO(nome, email, senha) VALUES('Aluno3', 'aluno3@email.com', '$2a$10$2ySZLGg182rbBMwu42iwwu6.e1XPxKlR4R1Zqh6Y9tm0psX26lpw.');
+INSERT INTO USUARIO(nome, email, senha) VALUES('Aluno4', 'aluno4@email.com', '$2a$10$2ySZLGg182rbBMwu42iwwu6.e1XPxKlR4R1Zqh6Y9tm0psX26lpw.');
+INSERT INTO USUARIO(nome, email, senha) VALUES('Aluno5', 'aluno5@email.com', '$2a$10$2ySZLGg182rbBMwu42iwwu6.e1XPxKlR4R1Zqh6Y9tm0psX26lpw.');
+
+INSERT INTO CURSO(nome, categoria) VALUES('Spring Boot', 'Programação');
+INSERT INTO CURSO(nome, categoria) VALUES('HTML 5', 'Front-end');
+INSERT INTO CURSO(nome, categoria) VALUES('Java', 'Back-end');
+INSERT INTO CURSO(nome, categoria) VALUES('Oracle', 'BD');
+INSERT INTO CURSO(nome, categoria) VALUES('Eclipse', 'IDE');
+
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 1', 'Erro ao criar projeto', '2014-05-05 18:00:00', 'NAO_RESPONDIDO', 1, 1);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 2', 'Projeto não compila', '2015-07-05 19:00:00', 'NAO_RESPONDIDO', 1, 1);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 3', 'Tag HTML', '2017-10-05 20:00:00', 'NAO_RESPONDIDO', 1, 2);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 4', 'Não funciona', '2010-01-05 20:00:00', 'NAO_RESPONDIDO', 2, 3);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 5', 'Não grava', '2011-03-05 20:00:00', 'NAO_RESPONDIDO', 3, 4);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 6', 'Não responde', '2009-08-05 20:00:00', 'NAO_RESPONDIDO', 4, 5);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 7', 'Null pointer', '2013-11-05 20:00:00', 'NAO_RESPONDIDO', 5, 1);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 8', 'Persist cascade', '2014-04-05 20:00:00', 'NAO_RESPONDIDO', 1, 2);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 9', 'Não encontra índice', '2012-02-05 20:00:00', 'NAO_RESPONDIDO', 2, 3);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 10', 'Não encontra resultados', '2019-09-05 20:00:00', 'NAO_RESPONDIDO', 3, 4);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 11', 'Travou', '2018-10-05 20:00:00', 'NAO_RESPONDIDO', 4, 5);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 12', 'Erro na resposta', '2016-12-05 20:00:00', 'NAO_RESPONDIDO', 5, 1);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 13', 'Não baixa dependências', '2018-06-05 20:00:00', 'NAO_RESPONDIDO', 1, 2);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 14', 'NPE', '2017-07-05 20:00:00', 'NAO_RESPONDIDO', 2, 3);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 15', 'Não excluiu', '2013-04-05 20:00:00', 'NAO_RESPONDIDO', 3, 4);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 16', 'Erro 500', '2001-09-05 20:00:00', 'NAO_RESPONDIDO', 4, 5);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 17', 'Não paginou', '2011-08-05 20:00:00', 'NAO_RESPONDIDO', 5, 1);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 18', 'Parent record found', '2000-02-05 20:00:00', 'NAO_RESPONDIDO', 1, 2);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 19', 'Erro durante sicronização', '2017-01-05 20:00:00', 'NAO_RESPONDIDO', 2, 3);
+INSERT INTO TOPICO(titulo, mensagem, data_criacao, status, autor_id, curso_id) VALUES('Dúvida 20', 'Congela', '2020-11-05 20:00:00', 'NAO_RESPONDIDO', 3, 4);
