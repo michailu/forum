@@ -48,6 +48,7 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter { //Est
 		http.authorizeRequests()
 		.antMatchers(HttpMethod.GET, "/topicos").permitAll() //Libera a consulta da lista
 		.antMatchers(HttpMethod.GET, "/topicos/*").permitAll()
+		.antMatchers(HttpMethod.GET, "/actuator/**").permitAll()
 		.antMatchers(HttpMethod.POST, "/auth").permitAll()
 		.anyRequest().authenticated() //Qualquer outra requisicao precisa estar autenticado
 		//.and().formLogin(); //Redireciona para pagina de login do sprint boot com a criação de uma session. Com a utilização do jwt não será mais utilizada.
@@ -59,7 +60,7 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter { //Est
 	//Configuracoes de recursos estaticos, css, js imagens etc
 	@Override
 		public void configure(WebSecurity web) throws Exception {
-			super.configure(web);
+			web.ignoring().antMatchers("/**.html", "/v2/api-docs", "/webjars/**", "/configuration/**", "/swagger-resources/**");
 		}
 
 	public static void main(String[] args) {

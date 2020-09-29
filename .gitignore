@@ -1,6 +1,7 @@
 HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+/__MACOSX
 
 ### STS ###
 .apt_generated
